@@ -1,7 +1,7 @@
-Manati Teampass Server
+Jenkins Server
 ======================
 
-Since we're so lazy at Manati; we need to have our teampass server fully scripted in order to rebuild from scratch it if necessary.
+Basic configuration to create a Jenkins Server.
 
 ## Install required roles.
 `sudo ansible-galaxy install -r provisioning/requirements.yml --force`
@@ -15,8 +15,3 @@ Since we're so lazy at Manati; we need to have our teampass server fully scripte
 
 ## Start the DigitalOcean server
 `vagrant up --provider=digitalocean`
-
-## Post Install
-
-- Configure dns (openvpn_host should match a real dns name)
-- Change admin user password to a real password
