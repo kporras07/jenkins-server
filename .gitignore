@@ -1,0 +1,8 @@
+# Vagrant generated files.
+.vagrant
+
+# Config file.
+config.yml
+
+# Retry files.
+provisioning/playbook.retry
