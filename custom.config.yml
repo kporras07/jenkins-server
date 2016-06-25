@@ -1,5 +1,6 @@
 # Jenkins
 jenkins_hostname: jenkins.example.com
+admin_password: "CHANGEME"
 
 # Config for DigitalOcean.
 private_key_path: "~/.ssh/id_rsa"
