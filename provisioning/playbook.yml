@@ -13,6 +13,7 @@
 
   roles:
     # Essential roles.
+    - geerlingguy.java
     - geerlingguy.jenkins
 
   tasks:
