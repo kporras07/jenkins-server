@@ -1,3 +1,6 @@
 # Jenkins
-jenkins_hostname: jenkins.example.com
+jenkins_hostname: localhost
+
+# This value should be encrypted.
+# Use output from `mkpasswd --method=sha-512`
 admin_password: "CHANGEME"
