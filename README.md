@@ -10,8 +10,7 @@ Basic configuration to create a Jenkins Server.
 
 - Copy custom.config.yml to config.yml and replace necessary values
 
-## Start the VM
-`vagrant up`
+## Running the playbook
 
-## Start the DigitalOcean server
-`vagrant up --provider=digitalocean`
+- Copy hosts.example to hosts and edit it
+- Run it with `ansible-playbook -i hosts provisioning/playbook.yml`
