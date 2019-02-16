@@ -13,7 +13,8 @@
 
   roles:
     # Essential roles.
+    - geerlingguy.java
     - geerlingguy.jenkins
 
   tasks:
-    - include: tasks/www.yml
+    - include: tasks/users.yml

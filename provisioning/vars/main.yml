@@ -1,2 +1,5 @@
 ---
 ansible_python_interpreter: /usr/bin/python2.7
+java_packages:
+  - openjdk-8-jdk
+jenkins_hostname: localhost
